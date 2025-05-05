@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e1d9d9;
+  padding: 20px;
+}
+  .albums {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .album {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .album:hover {
+    transform: scale(1.05);
+  }
+  
+  .album img {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .gallery {
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    max-width: 300px;
+    margin: 10px;
+    border: 2px solid #ccc;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button.back {
+    margin-bottom: 10px;
+  }
+/* Configuração para linha HOVER do MENU */
+.navbar-nav .nav-link {
+    position: relative; 
+    padding-bottom: 5px;
+}
+.navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(25, 194, 121);
+    transition: width 0.3s ease;
+}
+.navbar-nav .nav-link:hover::before {
+    width: 90%;
+}
