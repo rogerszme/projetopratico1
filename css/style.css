@@ -63,3 +63,15 @@ body {
 .navbar-nav .nav-link:hover::before {
     width: 90%;
 }
+.list-group:hover {
+  transform: scale(1.05);
+}
+.display-4:hover {
+  transform: scale(1.05);
+}
+.rounded-lg-3:hover {
+  transform: scale(1.15);
+}
+.col:hover {
+  transform: scale(1.05);
+}
