@@ -75,3 +75,6 @@ body {
 .col:hover {
   transform: scale(1.05);
 }
+.col-lg-4:hover {
+  transform: scale(1.05);
+}
